@@ -7,7 +7,7 @@ public class RobotConnect {
             try {
                 connection = robotConnectionManager.getConnection();
                 connection.moveRobotTo(toX, toY);
-                i = 3;
+                return;
 
             } catch (RobotConnectionException e) {
 
